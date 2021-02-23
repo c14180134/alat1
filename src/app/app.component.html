@@ -1,18 +1,22 @@
-<hello name="{{ name }}"></hello>
+<h2>Peraturan</h2>
+<h3>Player bergantian mengetik A dan B setelah seluruh kotak terpenuhi baru mengklik total</h3>
 <p>
-  baris: 
-  <input type="text" [(ngModel)]= "baris"/> <br>
+  baris:
+  <input type="text" [(ngModel)]="baris" /> <br />
   kolom:
-  <input type="text" [(ngModel)]= "kolom"/>
-  <br>
-  
+  <input type="text" [(ngModel)]="kolom" />
+  <br />
 </p>
-<button (click)="inputs()">Place</button><div><br>
-<button (click)="inputs2()">Place</button>
-<br>
-<br>
-{{no1}}{{no2}}{{no3}}{{no4}}{{no5}}<br>
-{{no6}}{{no7}}{{no8}}{{no9}}{{no10}}<br>
-{{no11}}{{no12}}{{no13}}{{no14}}{{no15}}<br>
-{{no16}}{{no17}}{{no18}}{{no19}}{{no20}}<br>
-{{no21}}{{no22}}{{no23}}{{no24}}{{no25}}<br>
+<button (click)="inputs()">Place A</button>
+<div>
+  <br />
+  <button (click)="inputs2()">Place B</button>
+  <br />
+  <br />
+  {{no1}}{{no2}}{{no3}}{{no4}}{{no5}}<br />
+  {{no6}}{{no7}}{{no8}}{{no9}}{{no10}}<br />
+  {{no11}}{{no12}}{{no13}}{{no14}}{{no15}}<br />
+  {{no16}}{{no17}}{{no18}}{{no19}}{{no20}}<br />
+  {{no21}}{{no22}}{{no23}}{{no24}}{{no25}}<br />
+</div>
+<button (click)="total()">Total</button>

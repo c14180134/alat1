@@ -255,26 +255,31 @@ export class AppComponent {
   }
     totalh1(){
     if(this.no1=="A"){
-      this.tvalue+=1;
+      this.tvalue=this.tvalue*1+1;
     }
     if(this.no2=="A"){
-      this.tvalue+=1;
+     this.tvalue=this.tvalue*1+1;
     }
     if(this.no3=="A"){
-      this.tvalue+=1;
+      this.tvalue=this.tvalue*1+1;
     }
     if(this.no4=="A"){
-      this.tvalue+=1;
+      this.tvalue=this.tvalue*1+1;
     }
     if(this.no5=="A"){
-      this.tvalue+=1;
+     this.tvalue=this.tvalue*1+1;
     }else{
       this.tvalue=-1;
     }
+    alert(this.tvalue);
     if(this.tvalue==4){
-
+      alert("Player A win");
+    }
+    if(this.tvalue==-4){
+      alert("Player B win");
     }
     this.tvalue=0;
+    
   }
   totalh2(){
     if(this.no6=="A"){
@@ -293,7 +298,10 @@ export class AppComponent {
       this.tvalue+=1;
     }
     if(this.tvalue==4){
-
+      alert("Player A win");
+    }
+    if(this.tvalue==-4){
+      alert("Player B win");
     }else{
       this.tvalue=-1;
     }
@@ -319,7 +327,10 @@ export class AppComponent {
       this.tvalue=-1;
     }
     if(this.tvalue==4){
-
+      alert("Player A win");
+    }
+    if(this.tvalue==-4){
+      alert("Player B win");
     }
     this.tvalue=0;
   }
@@ -342,7 +353,10 @@ export class AppComponent {
       this.tvalue=-1;
     }
     if(this.tvalue==4){
-
+      alert("Player A win");
+    }
+    if(this.tvalue==-4){
+      alert("Player B win");
     }
   }
   totalh5(){
@@ -362,7 +376,10 @@ export class AppComponent {
       this.tvalue+=1;
     }
     if(this.tvalue==4){
-
+      alert("Player A win");
+    }
+    if(this.tvalue==-4){
+      alert("Player B win");
     }else{
       this.tvalue=-1;
     }
@@ -388,13 +405,16 @@ export class AppComponent {
       this.tvalue=-1;
     }
     if(this.tvalue==4){
-
+      alert("Player A win");
+    }
+    if(this.tvalue==-4){
+      alert("Player B win");
     }
     this.tvalue=0;
   }
   totalv2(){
     if(this.no2=="A"){
-      this.tvalue+=1;
+      this.tvalue=this.tvalue*1+1;
     }
     if(this.no7=="A"){
       this.tvalue+=1;
@@ -410,8 +430,11 @@ export class AppComponent {
     }else{
       this.tvalue=-1;
     }
-    if(this.tvalue==4){
-
+   if(this.tvalue==4){
+      alert("Player A win");
+    }
+    if(this.tvalue==-4){
+      alert("Player B win");
     }
     this.tvalue=0;
   }
@@ -434,7 +457,10 @@ export class AppComponent {
       this.tvalue=-1;
     }
     if(this.tvalue==4){
-
+      alert("Player A win");
+    }
+    if(this.tvalue==-4){
+      alert("Player B win");
     }
     this.tvalue=0;
   }
@@ -458,7 +484,10 @@ export class AppComponent {
       this.tvalue=-1;
     }
     if(this.tvalue==4){
-
+      alert("Player A win");
+    }
+    if(this.tvalue==-4){
+      alert("Player B win");
     }
 
     this.tvalue=0;
@@ -482,7 +511,10 @@ export class AppComponent {
       this.tvalue=-1;
     }
     if(this.tvalue==4){
-
+      alert("Player A win");
+    }
+    if(this.tvalue==-4){
+      alert("Player B win");
     }
     this.tvalue=0;
   }
